@@ -4,7 +4,7 @@
         <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 
             <div>
-                <h2 class="text-xl font-bold text-blue-700">
+                <h2 class="font-serif text-2xl font-semibold italic tracking-wide text-slate-800">
                     Le Savon
                 </h2>
 
@@ -68,4 +68,4 @@
         </div>
 
     </div>
-</footer>
+</footer>   

@@ -9,7 +9,7 @@
 
 
     <!-- Services Section -->
-    <section id="services" class="relative overflow-hidden bg-white px-6 py-24 lg:px-12">
+    <section id="features" class="relative overflow-hidden bg-white px-6 py-24 lg:px-12">
 
         <div class="absolute -right-32 top-20 h-72 w-72 rounded-full bg-blue-100/60 blur-3xl"></div>
 
@@ -35,41 +35,41 @@
 
             <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
-                @include('components.feature-card', [
-                    'icon' => '🧺',
-                    'title' => 'Wash & Fold',
-                    'description' => 'Clean, dry, and neatly folded clothes ready for you to take home.'
-                ])
+                <x-feature-card
+                    icon="🧺"
+                    title="Wash & Fold"
+                    description="Clean, dry, and neatly folded clothes ready for you to take home."
+                />
 
-                @include('components.feature-card', [
-                    'icon' => '👕',
-                    'title' => 'Regular Laundry',
-                    'description' => 'A convenient option for your everyday clothes and regular laundry loads.'
-                ])
+                <x-feature-card
+                    icon="👕"
+                    title="Regular Laundry"
+                    description="A convenient option for your everyday clothes and regular laundry loads."
+                />
 
-                @include('components.feature-card', [
-                    'icon' => '🫧',
-                    'title' => 'Wash & Dry',
-                    'description' => 'Let our team handle the washing and drying while you focus on your day.'
-                ])
+                <x-feature-card
+                    icon="🫧"
+                    title="Wash & Dry"
+                    description="Let our team handle the washing and drying while you focus on your day."
+                />
 
-                @include('components.feature-card', [
-                    'icon' => '🛏️',
-                    'title' => 'Bedding & Blankets',
-                    'description' => 'Give your larger laundry items a proper clean and fresh finish.'
-                ])
+                <x-feature-card
+                    icon="🛏️"
+                    title="Bedding & Blankets"
+                    description="Give your larger laundry items a proper clean and fresh finish."
+                />
 
-                @include('components.feature-card', [
-                    'icon' => '👔',
-                    'title' => 'Delicate Clothes',
-                    'description' => 'Extra attention for selected garments that require gentle handling.'
-                ])
+                <x-feature-card
+                    icon="👔"
+                    title="Delicate Clothes"
+                    description="Extra attention for selected garments that require gentle handling."
+                />
 
-                @include('components.feature-card', [
-                    'icon' => '📦',
-                    'title' => 'Laundry Pickup',
-                    'description' => 'A convenient pickup option for customers who prefer to stay at home.'
-                ])
+                <x-feature-card
+                    icon="📦"
+                    title="Laundry Pickup"
+                    description="A convenient pickup option for customers who prefer to stay at home."
+                />
 
             </div>
 
@@ -396,42 +396,40 @@
 
             <div class="mt-14 grid gap-6 md:grid-cols-3">
 
-                @include('components.pricing-card', [
-                    'name' => 'Regular Wash',
-                    'price' => '₱80',
-                    'description' => 'For everyday laundry loads.',
-                    'features' => [
+                <x-pricing-card
+                    name="Regular Wash"
+                    price="₱80"
+                    description="For everyday laundry loads."
+                    :features="[
                         'Washing',
                         'Basic drying',
                         'Clean and ready for pickup'
-                    ]
-                ])
+                     ]"
+                />
 
-
-                @include('components.pricing-card', [
-                    'name' => 'Wash & Fold',
-                    'price' => '₱120',
-                    'description' => 'For customers who want extra convenience.',
-                    'features' => [
+                <x-pricing-card
+                    name="Wash & Fold"
+                    price="₱120"
+                    description="For customers who want extra convenience."
+                    :features="[
                         'Washing',
                         'Drying',
                         'Neatly folded laundry'
-                    ],
-                    'featured' => true
-                ])
+                    ]"
+                    :featured="true"
+                />
 
-
-                @include('components.pricing-card', [
-                    'name' => 'Full Service',
-                    'price' => '₱180',
-                    'description' => 'A convenient option for larger laundry needs.',
-                    'features' => [
+                <x-pricing-card
+                    name="Full Service"
+                    price="₱180"
+                    description="A convenient option for larger laundry needs."
+                    :features="[
                         'Washing',
                         'Drying',
                         'Folding',
                         'Priority handling'
-                    ]
-                ])
+                    ]"
+                />
 
             </div>
 
@@ -468,28 +466,29 @@
 
             <div class="mt-14 grid gap-6 md:grid-cols-3">
 
-                @include('components.testimonial-card', [
-                    'name' => 'Maria Santos',
-                    'position' => 'Customer',
-                    'review' => 'The clothes came back clean and neatly folded. It saved me a lot of time during a busy week.'
-                ])
+                <x-testimonial-card
+                    name="Maria Santos"
+                    position="Customer"
+                    photo="https://i.pravatar.cc/100?img=47"
+                    review="The clothes came back clean and neatly folded. It saved me a lot of time during a busy week."
+                />
 
+                <x-testimonial-card
+                    name="John Earl Reyes"
+                    position="Regular Customer"
+                    photo="https://i.pravatar.cc/100?img=12"
+                    review="I usually bring my laundry here on weekends. The service is simple, convenient, and reliable."
+                />
 
-                @include('components.testimonial-card', [
-                    'name' => 'John Reyes',
-                    'position' => 'Regular Customer',
-                    'review' => 'I usually bring my laundry here on weekends. The service is simple, convenient, and reliable.'
-                ])
-
-
-                @include('components.testimonial-card', [
-                    'name' => 'Angela Cruz',
-                    'position' => 'Customer',
-                    'review' => 'I like that the service is straightforward and my clothes are handled with care.'
-                ])
+                <x-testimonial-card
+                    name="Angela Cruz"
+                    position="Customer"
+                    photo="https://i.pravatar.cc/100?img=32"
+                    review="I like that the service is straightforward and my clothes are handled with care."
+                />
 
             </div>
-
+    
         </div>
     </section>
 
@@ -527,7 +526,7 @@
                 </a>
 
                 <a
-                    href="#services"
+                    href="#features"
                     class="rounded-xl border border-white/40 bg-white/10 px-7 py-3.5 font-bold text-white backdrop-blur transition duration-300 hover:-translate-y-1 hover:bg-white/20"
                 >
                     Explore Services
