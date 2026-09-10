@@ -197,7 +197,7 @@ The Le Savon landing page considers UX by:
 - Making important information easy to find.
 ### Why Responsive Design Is Important
 
-Responsive design is important in modern web applications because users access websites using many different devices and screen sizes.
+Responsive design is important in modern web applications because users access websites using many different devices and screen sizes. The responsiveness of each element, affects the experience of every user. 
 
 A responsive website:
 
