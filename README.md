@@ -816,20 +816,20 @@ Recommended files include:
 
 ```text
 screenshots/
-├── before-design.png
-├── after-design.png
-├── desktop-layout.png
-├── tablet-layout.png
-├── mobile-layout.png
-├── navigation-bar.png
-├── hero-section.png
-├── features-section.png
-├── pricing-cards.png
-├── testimonials.png
-├── footer.png
-├── vscode-project-structure.png
-├── blade-components-folder.png
-└── github-repository.png
+├── before-design.jpe
+├── after-design.jpe
+├── desktop-layout.jpe
+├── tablet-layout.jpe
+├── mobile-layout.jpe
+├── navigation-bar.jpe
+├── hero-section.jpe
+├── features-section.jpe
+├── pricing-cards.jpe
+├── testimonials.jpe
+├── footer.jpe
+├── vscode-project-structure.jpe
+├── blade-components-folder.jpe
+└── github-repository.jpe
 ```
 
 ## Before Design
@@ -925,9 +925,9 @@ documentation/
 Recommended files:
 
 documentation/
-├── before-design.png
-├── after-design.png
-└── before-after-comparison.png
+├── before-design.jpe
+├── after-design.jpe
+└── before-after-comparison.jpe
 ```
 
 These images demonstrate how the interface evolved during development.
