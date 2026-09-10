@@ -316,6 +316,19 @@ This creates:
 
 These utility classes help create a responsive and visually consistent interface without requiring large amounts of custom CSS.
 
+### Tailwind CSS Examples
+
+The project uses Tailwind CSS utility classes to style and organize the responsive interface. Examples include:
+
+- `flex` for flexible layouts.
+- `grid` for arranging cards and sections.
+- `px-6` and `py-20` for consistent spacing.
+- `md:grid-cols-2` and `lg:grid-cols-4` for responsive layouts.
+- `rounded-2xl` for rounded cards.
+- `shadow-sm` for subtle card shadows.
+
+These utility classes allow the interface to be styled directly in Blade templates without creating large amounts of custom CSS.
+
 # 6. Blade Components
 ## What Are Blade Components?
 
