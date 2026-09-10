@@ -439,6 +439,27 @@ resources/views/
 └── pages/
     └── home.blade.php
 ```
+### Blade Component Examples
+
+The project uses reusable Blade components to keep the interface organized and consistent.
+
+Examples include:
+
+- `feature-card.blade.php` – displays individual laundry service features.
+- `pricing-card.blade.php` – displays pricing plans and included features.
+- `testimonial-card.blade.php` – displays customer testimonials.
+- `button.blade.php` – provides reusable styled buttons.
+- `navbar.blade.php` – provides the main navigation.
+- `footer.blade.php` – provides the website footer.
+
+For example, the feature card component can be reused with different properties:
+
+```blade
+    <x-feature-card
+        icon="🧺"
+        title="Wash & Fold"
+        description="Clean and neatly folded clothes for your convenience."
+    />
 
 # 7. User Interface Design
 
