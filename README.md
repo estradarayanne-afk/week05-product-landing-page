@@ -590,6 +590,10 @@ Consistent across sections.
 Accessible on different devices.
 Simple to interact with.
 
+### Design Consistency
+
+The interface uses consistent spacing, typography, buttons, and card styles throughout the landing page. A limited blue, white, and slate color palette helps maintain visual consistency while providing sufficient contrast. Rounded cards, clear headings, and simple icons make the content easy to scan and understand.
+
 # 8. Folder Structure
 
 The project follows Laravel's standard folder organization.
